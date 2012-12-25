@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+alias ltr='ls -ltr'	# ls command: long, sort by mod date, rev order
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
