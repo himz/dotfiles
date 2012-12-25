@@ -1,4 +1,4 @@
-##Customized for gnome shell
+##Customized for gnome shell, with 1366 width monitors.
 # Conky settings #
 background no
 update_interval 1
@@ -31,11 +31,11 @@ own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
 border_inner_margin 0
 border_outer_margin 0
 
-minimum_size 200 250
+minimum_size 200 500
 maximum_width 200
 
 alignment tr
-gap_x 35
+gap_x 1130 
 gap_y 40 
 
 # Graphics settings #
@@ -78,9 +78,9 @@ ${color FFFFFF}${goto 125}${voffset 25}${downspeed eth0}
 ${color FFFFFF}${goto 125}${upspeed eth0}
 ${color FF6600}${goto 125}Net
 
-Delhi:    ${alignc}${font arial:size=12}${tztime Asia/Calcutta %H:%M %m/%d/%y}${font}
-Pitts:    ${alignc}${font arial:size=12}${time %H:%M %m/%d/%y}${font}
-LA:       ${alignc}${font arial:size=12}${tztime America/Los_Angeles %H:%M %m/%d/%y}${font}
+Delhi:    ${alignc}${font arial:size=12}${tztime Asia/Calcutta %H:%M %a, %b %e}${font}
+Pitts:    ${alignc}${font arial:size=12}${time %H:%M %a, %b %e}${font}
+LA:       ${alignc}${font arial:size=12}${tztime America/Los_Angeles %H:%M %a, %b %e}${font}
 
 ${color FFFFFF}${font caviar dreams:size=8}Uptime: ${uptime_short}
 ${color FFFFFF}${font caviar dreams:size=8}Processes: ${processes}
