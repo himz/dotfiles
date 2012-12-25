@@ -7,16 +7,16 @@ bash directory contains my my .bashrc, .bash_aliases etc. bin - not same as ~/bi
 
 Everything needs to be soft linked to the relevant locations from here as shown by following commands:
 
-rm-rf ~/.vim
+rm-rf ~/.vim;
 ln -s ~/dotfiles/vim ~/.vim           
 
-rm-rf ~/.vimrc
+rm-rf ~/.vimrc;
 ln -s ~/dotfiles/vim/vimrc ~/.vimrc
 
-rm -rf ~/.bashrc
+rm -rf ~/.bashrc;
 ln -s ~/dotfiles/bash/bashrc ~/.bashrc
 
-rm -rf ~/.bash_aliases
+rm -rf ~/.bash_aliases;
 ln -s ~/dotfiles/bash/aliases ~/.bash_aliases
 
 After this, goto dotfiles folder and run following command 
