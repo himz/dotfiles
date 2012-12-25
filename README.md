@@ -7,7 +7,7 @@ bash directory contains my my .bashrc, .bash_aliases etc. bin - not same as ~/bi
 
 Everything needs to be soft linked to the relevant locations from here as shown by following commands:
 
-rm-rf ~/.vim
+rm -rf ~/.vim
 ln -s ~/dotfiles/vim ~/.vim           
 
 rm-rf ~/.vimrc
@@ -17,7 +17,13 @@ rm -rf ~/.bashrc
 ln -s ~/dotfiles/bash/bashrc ~/.bashrc
 
 rm -rf ~/.bash_aliases
-ln -s ~/dotfiles/bash/aliases ~/.bash_aliases
+ln -s ~/dotfiles/bash/aliases ~/.bash_aliases        
+
+rm -rf ~/.conky
+ln -s ~/dotfiles/desktop/conky ~/.conky           
+
+rm -rf ~/.conkyrc
+ln -s ~/dotfiles/desktop/conky/conkyrc ~/.conkyrc
 
 After this, goto dotfiles folder and run following command 
 git submodule init && git submodule update
