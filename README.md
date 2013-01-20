@@ -25,6 +25,11 @@ ln -s ~/dotfiles/desktop/conky ~/.conky
 rm -rf ~/.conkyrc
 ln -s ~/dotfiles/desktop/conky/conkyrc ~/.conkyrc
 
+rm -rf ~/screenrc
+ln -s ~/dotfiles/desktop/screenrc ~/.screenrc
+
+
+
 After this, goto dotfiles folder and run following command 
 git submodule init && git submodule update
 

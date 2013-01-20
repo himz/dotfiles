@@ -4,3 +4,5 @@ alias ltr='ls -ltr'	# ls command: long, sort by mod date, rev order
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias and='ssh himanshp@128.2.13.139'
+
