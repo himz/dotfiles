@@ -30,6 +30,7 @@ let g:solarized_visibility="high"
 
 colorscheme solarized
 
+
 "Personal settings
 set nocompatible
 filetype on

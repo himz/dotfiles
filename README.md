@@ -7,34 +7,35 @@ bash directory contains my my .bashrc, .bash_aliases etc. bin - not same as ~/bi
 
 Everything needs to be soft linked to the relevant locations from here as shown by following commands:
 
-rm -rf ~/.vim
-ln -s ~/dotfiles/vim ~/.vim           
+rm -rf ~/.vim;
+ln -s ~/dotfiles/vim ~/.vim;
 
-rm-rf ~/.vimrc
-ln -s ~/dotfiles/vim/vimrc ~/.vimrc
+rm -rf ~/.vimrc;
+ln -s ~/dotfiles/vim/vimrc ~/.vimrc;
 
-rm -rf ~/.bashrc
-ln -s ~/dotfiles/bash/bashrc ~/.bashrc
+rm -rf ~/.bashrc;
+ln -s ~/dotfiles/bash/bashrc ~/.bashrc;
 
-rm -rf ~/.bash_aliases
-ln -s ~/dotfiles/bash/aliases ~/.bash_aliases        
+rm -rf ~/.bash_aliases;
+ln -s ~/dotfiles/bash/aliases ~/.bash_aliases;
 
-rm -rf ~/.conky
-ln -s ~/dotfiles/desktop/conky ~/.conky           
+rm -rf ~/.conky;
+ln -s ~/dotfiles/desktop/conky ~/.conky;
 
-rm -rf ~/.conkyrc
-ln -s ~/dotfiles/desktop/conky/conkyrc ~/.conkyrc
+rm -rf ~/.conkyrc;
+ln -s ~/dotfiles/desktop/conky/conkyrc ~/.conkyrc;
 
-rm -rf ~/screenrc
-ln -s ~/dotfiles/desktop/screenrc ~/.screenrc
+rm -rf ~/screenrci; rm -rf ~/.screenrc;
+ln -s ~/dotfiles/desktop/screenrc ~/.screenrc;
 
 
 
-After this, goto dotfiles folder and run following command 
+After this, goto dotfiles folder and run following command
+
 git submodule init && git submodule update
 
 The above command will update all the vim plugins and use them .
 
 
-PS: Most of this is taken from the following post:
+PS: Inspired from  following post:
 http://mirnazim.org/writings/vim-plugins-i-use/

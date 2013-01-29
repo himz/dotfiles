@@ -112,3 +112,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+#ADD Path of some apps to the main
+

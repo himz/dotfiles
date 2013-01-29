@@ -1,8 +1,20 @@
 #!/usr/bin/env bash
 
-alias ltr='ls -ltr'	# ls command: long, sort by mod date, rev order
+alias ltr='ls -ltr' # ls command: long, sort by mod date, rev order
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+# Remote Connections
 alias and='ssh himanshp@128.2.13.139'
+
+
+# OS(15410) related aliases
+alias p0='cd ~/bin/15410/p0'
+alias p1='cd ~/bin/15410/p1'
+alias p2='cd ~/bin/15410/p2'
+alias p3='cd ~/bin/15410/p3'
+alias p4='cd ~/bin/15410/p4'
+alias 410-bin='cd /afs/cs.cmu.edu/academic/class/15410-s13/bin'
+alias 410-usr='cd /afs/cs.cmu.edu/academic/class/15410-s13-users/himanshp'
 
