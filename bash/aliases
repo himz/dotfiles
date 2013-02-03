@@ -8,6 +8,7 @@ alias l='ls -CF'
 # Remote Connections
 alias and='ssh himanshp@128.2.13.139'
 
+alias andx='ssh -X himanshp@128.2.13.139'
 
 # OS(15410) related aliases
 alias p0='cd ~/bin/15410/p0'

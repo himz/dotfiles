@@ -60,3 +60,6 @@ set tabstop=4
 "highlight all the line with column >80
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
+
+"Always display the filename at the bottom
+set ls=2
