@@ -113,4 +113,6 @@ if ! shopt -oq posix; then
   fi
 fi
 #ADD Path of some apps to the main
+export PATH=$PATH{}:/home/himanshu/apps/adt-bundle-linux-x86_64-20131030/sdk/tools:/home/himanshu/apps/adt-bundle-linux-x86_64-20131030/sdk/platform-tools
+export JAVA_HOME="/opt/java/jdk1.7.0_51/"
 
